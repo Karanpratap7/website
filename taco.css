@@ -1,0 +1,33 @@
+html{
+    font-size: 24px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+a{
+    color: #01ff49;
+}
+
+a:visited{
+    color: rgb(3, 197, 250);
+}
+a:hover , :active{
+    color: #ff0606;
+}
+
+table, tr, td, th, caption{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: separate;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
